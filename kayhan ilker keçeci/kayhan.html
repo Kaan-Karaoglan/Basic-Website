@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="kayhan.css">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Description of your brand and services">
+    <meta name="keywords" content="Resort, Spa, Accommodation, Room Service,Entertainment,Restaurant,Kid Facilities">
+    <meta name="author" content="Kayhan İlker Keçeci">
+    <meta property="og:title" content="Kayhan İlker Keçeci - Keçeci Resort">
+    <meta property="og:description" content="Accommodation and Hotel Services">
+    <i class="fa fa-bed" aria-hidden="true"></i>
+
+
+
+    <title>Kayhan İlker Keçeci - Keçeci Resort || 2011008043 || Homepage </title>
+</head>
+
+<body style="width: 600px; margin: 0 auto; background-color: #92c7cf">
+
+
+    <header>
+        <h1 style="text-align : center;">Keçeci Resort</h1>
+        <img style="margin-left: 110px; max-width: 400px; "
+            src="Images\Brand Logo\resort-island-with-beach-coconut-tropical-nature-travel-vacation-tourist-logo-design_742608-107.avif"
+            alt="Brand Logo">
+
+
+        <nav>
+            <ul>
+                <li><a href="#announcements" style=font-size:20px;>Announcements</a></li>
+                <li><a href="#services" style=font-size:20px;>Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <img style=" max-width: 600px;" src="Images\Banner Image\kdxss0nf2qv0dsa8r4i4.jpg" alt="Banner Image">
+
+    <section>
+        <h2 id='announcements' style=font-size:25px;>Announcements</h2>
+        <p style="background-color: #dcf2f1;font-size: 25px;"><a href="reservation.html">Our reservations will start
+                on March 19! </a></p>
+        <p style="background-color: #dcf2f1;">Stay tuned for our next announcements</p>
+    </section>
+
+
+    <section id="services">
+        <h2 style=font-size:25px;>Our Services </h2>
+        <ol>
+            <li class="flex_container">1. Accommodation</li>
+            <li class="flex_container">2. Spa</li>
+            <li class="flex_container">3. Breakfast</li>
+            <li class="flex_container">4. Lunch (Extra)</li>
+            <li class="flex_container">5. Golf</li>
+            <li class="flex_container">6. Bar</li>
+            <li class="flex_container">7.Pool</li>
+        </ol>
+    </section>
+
+    <section><!-- Add this code wherever you want the Swiper to appear in your HTML -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img class="slide_img" src="Images\aquila-game-reserve-mvr-19-07-090.jpg">
+                </div>
+                <div class="swiper-slide"><img class="slide_img" src="Images\1617119378601.jpeg">
+                </div>
+                <div class="swiper-slide"><img class="slide_img" src="Images\golf-1.jpg"></div>
+
+                <div class="swiper-slide"><img class="slide_img" src="Images\Olea-All-Suites-Zakynthos-43.jpg">>
+                </div>
+                <div class="swiper-slide"><img class="slide_img" src="Images\b401dc64405c4d9de4f1cf8afc412136.jpg">>
+                </div>
+                <!-- Add more slides as needed -->
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+    <section>
+        <h2 style=font-size:25px;>Contact Us </h2>
+        <form>
+            <input style="width: 600px;" type="email" id="email" name="email" placeholder="Your email">
+            <input style="margin-top:10px;" type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">I approve the express consent text.</label>
+
+            <button style="margin-top:10px;" type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </form>
+    </section>
+
+    <section>
+        <h2 style=font-size:25px;>Find Us on Map</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63174.423578980604!2d-79.10532085!3d8.262776200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e52deb3d07a5961%3A0xd6293e7ff53fffe1!2sSan%20Jose%20Island!5e0!3m2!1str!2str!4v1704356512354!5m2!1str!2str"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"><iframe width="600" height="450" style="border:0;"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        <h2 style=font-size:25px;>Connect with Us</h2>
+
+        <a href="https://www.ktb.gov.tr" target="_blank">Ministry of Culture and Tourism of the Republic of
+            Turkey</a>
+    </footer>
+
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+
+
+</body>
+
+</html>
