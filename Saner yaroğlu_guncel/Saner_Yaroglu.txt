@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="Saner_Yaroglu.css">
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Description of your brand and services">
+    <meta name="keywords" content="Fitness, Body Building, Sport, Pilates,Healthy Life,Cardio, Gym">
+    <meta name="author" content="Saner Saner Yaroğlu">
+    <meta property="og:title" content="Saner Yaroğlu - Saner Fitness">
+    <meta property="og:description" content="Gym and Pilates">
+
+
+
+    <title>Saner Yaroğlu - Saner Fitness || 2011008001 || Anasayfa </title>
+</head>
+
+<body style="width: 600px; margin: 0 auto; background-color: #eca800">
+
+    <header>
+        <h1 style="text-align : center; font-size: 50px">Saner Fitness</h1>
+
+        <img class="header_image" src="images\gym-music-speaker-fitness-by-simplepixelsl-brandcrowd1.png"
+            alt="Brand Logo">
+
+        <nav>
+            <ul>
+                <li class='nav_style'><a href="#possibilities">Possibilities</a></li>
+                <li class="nav_style"><a href="#announcements">Announcements</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <img style=" max-width: 600px;" src="images\360_F_350819076_VYSOrEOhrEFYiRLTEX4QPzYWyFKHOKgj.jpg"
+        alt="Banner Image">
+
+    <section id="possibilities">
+        <h2 style="font-size:30px;">Possibilities</h2>
+        <ul>
+            <li style="font-size:24px;">Fitness Saloon</li>
+            <li style="font-size:24px;">Personal Trainer</li>
+            <li style="font-size:24px;">Pool</li>
+            <li style="font-size:24px;">Boxing</li>
+            <li style="font-size:24px;">Pilates</li>
+        </ul>
+    </section>
+
+
+    <section>
+
+        <!-- Add this code wherever you want the Swiper to appear in your HTML -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img class="slide_img" src="images\cardio_room.jpg">
+                </div>
+
+                <div class="swiper-slide"><img class="slide_img" src="images\Top-Floor-02.avif">
+                </div>
+
+                <div class="swiper-slide"><img class="slide_img"
+                        src="images\625091a96cb932f79c70dd17_PS Pilates Studio Highlands Colorado Denver.jpg">
+                </div>
+
+                <div class="swiper-slide"><img class="slide_img"
+                        src="images\d-render-fitness-center-d-render-fitness-center-gym-saloon-139416473.webp">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 id='announcements' style="font-size:30px;">Announcements</h2>
+        <p class="announcements_style">Personel Trainer Hiring Applications are now Open </p>
+        <p class="announcements_style">We have purchased our new treadmills </p>
+
+    </section>
+
+    <section style="margin-bottom:30px;">
+        <h2 style="font-size:30px;">Our Trainers</h2>
+        <div class="swipper_trainer_container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img class="slide_img"
+                        src="images\Trainers\istockphoto-856797530-612x612.jpg">
+                </div>
+                <div class="swiper-slide"><img class="slide_img" src="images\Trainers\mh-trainer-2-1533576998.png">
+                </div>
+
+                <div class="swiper-slide"><img class="slide_img"
+                        src="images\Trainers\Website-meet-our-trainers-1024x576.jpg">
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 style="font-size:30px;">Contact Us</h2>
+        <form>
+            <input style="width: 600px;" type="email" id="email" name="email" placeholder="Your email">
+            <input style="margin-top:10px;" type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">I approve the express consent text.</label>
+
+            <button style="margin-top:10px;" type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </form>
+        <a href="https://www.massportclub.com" target="_blank"> Click for Our Website </a>
+    </section>
+
+    <section>
+        <h2 style="font-size:30px;">Our Location</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.9852697667243!2d29.012805976045733!3d41.11301277133595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab5c719786519%3A0x6a60219715f29c16!2sMassport%20Health%20Club!5e0!3m2!1str!2str!4v1704631679350!5m2!1str!2str"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"> </iframe>
+    </section>
+
+
+    <<script>
+        var swiper = new Swiper('.swiper-container', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        },
+
+        // Navigation arrows
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        },
+        });
+        </script>
+
+
+
+</body>
+
+</html>
